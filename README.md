@@ -1,6 +1,6 @@
 # Swiftagram
 
-Stack used:- ![](linux.png =100x100)
+Stack used:- <img src="linux.png" alt="TUT!" width="100px" height="100px">
 
 
 Welcome to Swiftagram...
