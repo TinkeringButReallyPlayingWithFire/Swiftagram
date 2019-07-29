@@ -1,6 +1,6 @@
 # Swiftagram
 
-Stack used:- ![](linux.png)
+Stack used:- ![](linux.png =100x100)
 
 
 Welcome to Swiftagram...
