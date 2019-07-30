@@ -48,8 +48,11 @@ When you have finished with your session, you can proceed to log out. Your journ
 the real, big world out there!
 
 I sincerely thank you for your interest in me and hope you have enjoyed this mini-presentation!
+<br>
 Arman
 
+**Please note - After registering your user, on the home screen, please proceed to your browsers search bar and**
+**add-on '/profile/1' to access your newly created profile! :)**
 
 ## Getting Started
 
