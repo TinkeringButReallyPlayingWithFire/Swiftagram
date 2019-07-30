@@ -1,21 +1,21 @@
 # Swiftagram
 
-Stack used:- 
+### Stack used (LEMP):-
 
-Linux
+**Linux**
 <img src="linux.png" alt="TUT!" width="50px" height="50px">
 
-Nginx
-<img src="nginx.jpg" alt="TUT!" width="50px" height="50px">
+**Nginx**
+<img src="nginx.jpg" alt="TUT!" width="80px" height="50px">
 
-MySQL/SQLite
-<img src="mysql.png" alt="TUT!" width="50px" height="50px">
+**MySQL/SQLite**
+<img src="mysql.png" alt="TUT!" width="80px" height="50px">
 
-PHP
-<img src="php.png" alt="TUT!" width="50px" height="50px">
+**PHP**
+<img src="php.png" alt="TUT!" width="80px" height="50px">
 
 
-
+ <br>
 
 
 Welcome to Swiftagram...
@@ -59,7 +59,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 A step by step series of examples that tell you how to get a development environment running
 
-Clone GitHub repo for this project locally
+**1 - Clone GitHub repo for this project locally**
 
 If the project is hosted on github, we can use git on your local computer to clone it from github onto your local computer.
 
@@ -69,13 +69,13 @@ Note: Make sure you have git installed locally on your computer first.
 git clone linktogithubrepo.com/ projectName
 ```
 
-'cd' into your project
+**2 - 'cd' into your project**
 
 ```
 cd YOURPROJECTNAME
 ```
 
-Install Composer Dependencies
+**3 - Install Composer Dependencies**
 
 Whenever you clone a new Laravel project you must now install all of the project dependencies. 
 This is what actually installs Laravel itself, among other necessary packages to get started.
@@ -84,14 +84,14 @@ This is what actually installs Laravel itself, among other necessary packages to
 composer install
 ```
 
-Install NPM Dependencies
+**4 - Install NPM Dependencies**
 Just like how we must install composer packages to move forward, we must also install necessary NPM packages to move forward. 
 This will install Vue.js, Bootstrap.css, Lodash, and Laravel Mix.
 ```
 npm install
 ```
 
-Create a copy of your .env file
+**5 - Create a copy of your .env file**
 .env files are not generally committed to source control for security reasons. But there is a .env.example which is a template of the .env file that the project expects us to have. 
 So we will make a copy of the .env.example file and create a .env file that we can start to fill out to do things like database configuration in the next few steps.
 
@@ -102,7 +102,7 @@ cp .env.example .env
 This will create a copy of the .env.example file in your project and name the copy simply .env.
 
 
-Generate an app encryption key
+**6 - Generate an app encryption key**
 
 Laravel requires you to have an app encryption key which is generally randomly generated and stored in your .env file.
 The app will use this encryption key to encode various elements of your application from cookies to password hashes and more.
@@ -114,13 +114,13 @@ php artisan key:generate
 ```
 
 
-Create an empty database for our application
+**7 - Create an empty database for our application**
 Create an empty database for your project using the database tools you prefer. 
 Just create an empty database here, the exact steps will depend on your system setup.
 
 
 
-In the .env file, add database information to allow Laravel to connect to the database
+**8 - In the .env file, add database information to allow Laravel to connect to the database**
 
 We will want to allow Laravel to connect to the database that you just created in the previous step. 
 To do this, we must add the connection credentials in the .env file and Laravel will handle the connection from there.
@@ -130,7 +130,7 @@ This will allow us to run migrations and seed the database in the next step.
 
 
 
-Migrate the database
+**9 - Migrate the database**
 
 Once your credentials are in the .env file, now you can migrate your database.
 ```
