@@ -1,6 +1,21 @@
 # Swiftagram
 
-Stack used:- <img src="linux.png" alt="TUT!" width="100px" height="100px">
+Stack used:- 
+
+Linux
+<img src="linux.png" alt="TUT!" width="50px" height="50px">
+
+Nginx
+<img src="nginx.jpg" alt="TUT!" width="50px" height="50px">
+
+MySQL/SQLite
+<img src="mysql.png" alt="TUT!" width="50px" height="50px">
+
+PHP
+<img src="php.png" alt="TUT!" width="50px" height="50px">
+
+
+
 
 
 Welcome to Swiftagram...
