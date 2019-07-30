@@ -85,6 +85,7 @@ composer install
 ```
 
 **4 - Install NPM Dependencies**
+<br>
 Just like how we must install composer packages to move forward, we must also install necessary NPM packages to move forward. 
 This will install Vue.js, Bootstrap.css, Lodash, and Laravel Mix.
 ```
@@ -92,6 +93,7 @@ npm install
 ```
 
 **5 - Create a copy of your .env file**
+<br>
 .env files are not generally committed to source control for security reasons. But there is a .env.example which is a template of the .env file that the project expects us to have. 
 So we will make a copy of the .env.example file and create a .env file that we can start to fill out to do things like database configuration in the next few steps.
 
@@ -115,6 +117,7 @@ php artisan key:generate
 
 
 **7 - Create an empty database for our application**
+<br>
 Create an empty database for your project using the database tools you prefer. 
 Just create an empty database here, the exact steps will depend on your system setup.
 
@@ -140,7 +143,7 @@ It’s not a bad idea to check your database to make sure everything migrated th
 
 
 #### Demo
-![](trillo.gif)
+![](swiftagram.gif)
 
 
 
